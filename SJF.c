@@ -35,3 +35,19 @@ int main(){
        printf("\nAverage Waiting Time: %f ",avgwt/n);
        return 0;
  }
+
+ouput:
+Enter the number of processes:5
+Enter the burst time for process 1--2
+Enter the burst time for process 2--5
+Enter the burst time for process 3--0
+Enter the burst time for process 4--1
+Enter the burst time for process 5--8
+
+PROCESS		BURST TIME		TURNAROUND TIME		WAITING TIME
+3                    0                        0                        0
+4                    1                        1                        0
+1                    2                        3                        1
+2                    5                        8                        3
+5                    8                        16                        8
+
