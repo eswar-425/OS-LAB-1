@@ -8,7 +8,7 @@ int main(){
         printf("Enter the burst time for process %d--",i+1);
         scanf("%d",&bt[i]);
      }
-     for(int i=0;i<n;i++){
+     for(int i=0;i<n-1;i++){
           for(int j=0;j<n-i-1;j++){
               if(bt[j] > bt[j+1]){
                    int temp = bt[j];
